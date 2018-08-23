@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="George W. Park">
+    <meta name="description" content="This project demonstrates how the fetch API can be used to retrieve mission/launch info from the SpaceX REST API and display that info in a responsive table.">
+
+    <!-- Title -->
+    <title>SpaceX Launches</title>
+
+    <!-- External CSS Files -->
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet">
+
+</head>
+<body>
+
+    <table>
+        <caption>SpaceX Launches</caption>
+        <thead>
+            <tr>
+                <th>Mission Name</th>
+                <th>Mission Patch</th>
+                <th>Rocket Name</th>
+                <th>Launch Site</th>
+                <th>Launch Year</th>
+                <th>Launch Success</th>
+                <th>Mission Details</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="7">Launch information retrieved from the <a href="https://github.com/r-spacex/SpaceX-API" target="_blank">SpaceX REST API</a></th>
+            </tr>
+        </tfoot>
+        <tbody></tbody>
+    </table>
+
+    <!-- External JavaScript File -->
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
