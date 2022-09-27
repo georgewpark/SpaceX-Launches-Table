@@ -4,4 +4,4 @@ This project demonstrates how the fetch API can be used to retrieve mission/laun
 ![SpaceX Launches Table Demo](https://github.com/georgewpark/SpaceX-Launches-Table/blob/master/demo-image.JPG "SpaceX Launches Table Demo")
 
 ## Live Demo
-A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/MBvMEN/).
+A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/MBvMEN/) and [Netlify](https://spacex-launches-table.netlify.app/).
