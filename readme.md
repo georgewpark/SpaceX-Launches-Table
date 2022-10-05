@@ -4,7 +4,7 @@ This project demonstrates how React and the fetch API can be used to retrieve mi
 ![SpaceX Launches Table](demo-image.JPG "SpaceX Launches Table")
 
 ## Live Demo
-A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/MBvMEN) and [Netlify](https://spacex-launches-table.app/).
+A live demo is available on [CodePen](https://codepen.io/GeorgePark/full/MBvMEN) and [Netlify](https://spacex-launches-table.netlify.app/).
 
 ## License
 This project is licensed under the MIT License - see the [license.md](license.md) file for details.
