@@ -4,12 +4,12 @@ export type Launch = {
   success: boolean | null,
   date_local: string,
   rocket: string,
-  launchpad: string
+  launchpad: string,
   links: {
     patch: {
       small: string
     }
-  },
+  }
 }
 
 export type Rocket = {
