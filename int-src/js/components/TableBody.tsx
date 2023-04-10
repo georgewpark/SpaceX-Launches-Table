@@ -74,7 +74,7 @@ const TableBody = ({ tableHeaders }: TableBodyProps) => {
                   {
                     launch.details
                       ? launch.details
-                      : `No details available${new Date() < new Date(launch.date_local) ? ' yet' : ''}.`
+                      : 'No details available'
                   }
                 </td>
               </tr>
