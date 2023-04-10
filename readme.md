@@ -1,5 +1,5 @@
 # SpaceX Launches Table
-This project demonstrates how React and the fetch API can be used to retrieve mission/launch data from the SpaceX REST API and display that data in a responsive table.
+This project demonstrates how React and the fetch API can be used to retrieve mission/launch data from the [SpaceX REST API](https://github.com/r-spacex/SpaceX-API#readme) and display that data in a responsive table.
 
 ![SpaceX Launches Table](demo-image.JPG "SpaceX Launches Table")
 
