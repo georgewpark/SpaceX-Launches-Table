@@ -3,9 +3,7 @@ type TableCaptionProps = {
 }
 
 const TableCaption = ({ caption }: TableCaptionProps) => {
-  return (
-    <caption>{caption}</caption>
-  )
+  return <caption>{caption}</caption>
 }
 
 export default TableCaption

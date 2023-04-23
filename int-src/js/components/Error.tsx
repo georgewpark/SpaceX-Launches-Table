@@ -5,7 +5,9 @@ type ErrorProps = {
 const Error = ({ columns }: ErrorProps) => {
   return (
     <tr>
-      <td data-label='Error' colSpan={columns}>Launch data unavailable.</td>
+      <td data-label='Error' colSpan={columns}>
+        Launch data unavailable.
+      </td>
     </tr>
   )
 }

@@ -6,9 +6,9 @@ const TableHeader = ({ tableHeaders }: TableHeaderProps) => {
   return (
     <thead>
       <tr>
-        {
-          tableHeaders.map(tableHeader => <th key={tableHeader}>{tableHeader}</th>)
-        }
+        {tableHeaders.map(tableHeader => (
+          <th key={tableHeader}>{tableHeader}</th>
+        ))}
       </tr>
     </thead>
   )

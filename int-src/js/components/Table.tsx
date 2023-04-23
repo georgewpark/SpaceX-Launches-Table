@@ -11,15 +11,15 @@ const Table = () => {
     'Launch Site',
     'Launch Year',
     'Launch Success',
-    'Mission Details'
+    'Mission Details',
   ]
 
   return (
     <table>
       <TableCaption caption='SpaceX Launches' />
-      <TableHeader tableHeaders={ tableHeaders } />
-      <TableBody tableHeaders={ tableHeaders } />
-      <TableFooter columns={ tableHeaders.length } />
+      <TableHeader tableHeaders={tableHeaders} />
+      <TableBody tableHeaders={tableHeaders} />
+      <TableFooter columns={tableHeaders.length} />
     </table>
   )
 }
